@@ -1,0 +1,2 @@
+# Optional dependency for authenticated object encryption (Fernet)
+cryptography>=42.0

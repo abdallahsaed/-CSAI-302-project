@@ -1,4 +1,7 @@
-# MiniDB — Project Structure & Architecture
+
+
+
+# MiniDB — Project Structure & Architecture.
 
 This document describes the repository organization and the responsibility of each module in MiniDB, covering Milestone 1 (Storage Engine Foundation) and Milestone 2 (Advanced Indexing and Object Storage).
 

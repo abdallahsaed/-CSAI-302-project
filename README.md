@@ -293,13 +293,4 @@ MiniDB is an educational project. The following are **not** implemented:
 
 ---
 
-## Team
 
-CSAI 302 course project.
-
-| Name | Role |
-|---|---|
-| _Your name_ | _e.g. Storage engine / Indexing_ |
-| _Teammate_ | _..._ |
-
-_Course instructor / university: add here._

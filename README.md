@@ -78,13 +78,4 @@ db.close()
 * Honest caveat: wall-clock numbers include the OS page cache, so **hit ratio and page I/O** are the primary metrics
   (`--sim-read-latency-us N` injects a per-miss device latency if you want time to reflect I/O cost).
 
-## 5. Known limitations (and the planned fix)
-
-| Limitation | Planned fix |
-|---|---|
-| Not crash-atomic: a crash between checkpoints loses/corrupts recent changes | WAL + ARIES in **M4** |
-| Rows larger than one page are rejected | Overflow/object pages in **M2** ("object storage") |
-| Row heap inserts only into the last page (no free-space map) | Free-space map / vacuum when M3 needs it |
-| Column store: TEXT point reads walk a page sequentially; deletes are tombstones | Offset arrays / compaction if M3 benchmarks show a need |
-| Single-threaded (buffer pool has a lock but no latching protocol) | Latches + lock manager in **M4** |
-| No NULL type | Add null bitmap with the M3 query layer |
+#

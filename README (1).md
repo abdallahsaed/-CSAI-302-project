@@ -377,13 +377,4 @@ This package covers M1 and M2 only. Known boundaries:
 
 ---
 
-## Team
 
-CSAI 302 course project.
-
-| Name | Contribution |
-|---|---|
-| _Add name_ | _e.g. storage engine, buffer pool_ |
-| _Add name_ | _e.g. indexing, benchmarks_ |
-
-_Instructor / university: add here._
